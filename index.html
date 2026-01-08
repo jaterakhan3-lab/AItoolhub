@@ -146,13 +146,26 @@ footer{
   opacity:.9;
 }
 </style>
+.logo{
+  display:flex;
+  align-items:center;
+}
+
+.logo img{
+  height:55px;
+  width:auto;
+}
+
 </head>
 
 <body>
 <div class="container">
 
 <header>
-  <div class="logo">AI<span>Hub</span></div>
+  <div class="logo">
+  <img src="logo.png" alt="AI Tools Hub Logo">
+</div>
+
   <input class="search" placeholder="Search free AI tools..." onkeyup="searchTools()">
   <div class="toggle" onclick="toggleMode()">🌙 / ☀️</div>
 </header>
